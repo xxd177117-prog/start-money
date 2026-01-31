@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Заработок в интернете</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background: linear-gradient(135deg,#141e30,#243b55);
+color:white;
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:80px 20px;
+}
+
+header h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+header p{
+font-size:20px;
+opacity:0.8;
+}
+
+/* BUTTON */
+
+.main-btn{
+margin-top:25px;
+padding:15px 35px;
+font-size:18px;
+border:none;
+border-radius:12px;
+background:linear-gradient(45deg,#ff8c00,#ff3d00);
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.main-btn:hover{
+transform:scale(1.05);
+}
+
+/* SECTION */
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:30px;
+border-radius:20px;
+margin-bottom:25px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card button{
+margin-top:15px;
+padding:12px 25px;
+border:none;
+border-radius:10px;
+background:orange;
+color:white;
+cursor:pointer;
+}
+
+/* HIDDEN BLOCK */
+
+#services{
+display:none;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+opacity:0.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>💸 Заработок в интернете</h1>
+<p>Начни прямо сегодня — без опыта и вложений</p>
+
+<button class="main-btn"
+onclick="document.getElementById('services').style.display='block'; this.style.display='none';">
+Начать
+</button>
+
+</header>
+
+
+<div id="services" class="container">
+
+<div class="card">
+<h2>🔥 Telegram Wallet</h2>
+<p>
+Официальный кошелек внутри Telegram.  
+Можно хранить криптовалюту, отправлять деньги и принимать оплату.
+</p>
+
+<button onclick="window.open('https://t.me/wallet','_blank')">
+Открыть Wallet
+</button>
+</div>
+
+
+<div class="card">
+<h2>🤖 BotFather</h2>
+<p>
+Главный бот Telegram для создания собственных ботов.  
+Если захочешь — позже сможешь сделать своего и зарабатывать.
+</p>
+
+<button onclick="window.open('https://t.me/BotFather','_blank')">
+Перейти к BotFather
+</button>
+</div>
+
+
+<div class="card">
+<h2>🚀 Фриланс и задания</h2>
+<p>
+Начни с простых онлайн-заданий и постепенно выходи на стабильный доход.
+Главное — действовать каждый день.
+</p>
+
+<button onclick="window.open('https://t.me/freelance','_blank')">
+Найти работу
+</button>
+</div>
+
+
+<div class="card">
+<h2>💡 Почему это работает?</h2>
+<p>
+Пока другие откладывают — ты уже можешь начать.  
+Интернет сегодня — это реальные возможности изменить свою жизнь.
+</p>
+
+<button onclick="window.open('https://google.com','_blank')">
+Узнать больше
+</button>
+</div>
+
+</div>
+
+
+<footer>
+© 2026 | Сайт про заработок
+</footer>
+
+</body>
+</html>
